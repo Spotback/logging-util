@@ -32,8 +32,8 @@ public class LoggingUtil {
   }
 
   public static void main(String[] args) {
-    System.setProperty("aws_access_key_id","AKIAJ5P75NILRMP6GFPA");
-    System.setProperty("aws_secret_access_key", "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");
+    System.setProperty("aws_access_key_id","");
+    System.setProperty("aws_secret_access_key", "");
     System.out.println(setSequenceTokens().toString());
   }
 
